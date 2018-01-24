@@ -1,3 +1,5 @@
+# Setting up Mocha and Chai to work with ES6
+
 The aim of this repository is to summarise how to set up a test-framework for an ES6 JavaScript application:
 
 **1 -** Create a new repository
