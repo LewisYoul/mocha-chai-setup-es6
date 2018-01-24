@@ -47,6 +47,6 @@ You will now be able to run `npm test` and your tests will pass. Wizard!
 
 ## Useful Websites
 
-Mocha - https://mochajs.org/
-Chai - http://chaijs.com/
-Babel ES15 Preset - https://babeljs.io/docs/plugins/preset-es2015/
+* Mocha - https://mochajs.org/
+* Chai - http://chaijs.com/
+* Babel ES15 Preset - https://babeljs.io/docs/plugins/preset-es2015/
