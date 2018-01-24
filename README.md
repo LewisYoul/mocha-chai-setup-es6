@@ -45,6 +45,26 @@ I'd be lying if I said I knew what all of these commands do. They install Babel 
 
 You will now be able to run `npm test` and your tests will pass. Wizard!
 
+**9 -** As a final step lets write a test that imports chai:
+
+```
+import assert from 'assert';
+import { expect } from 'chai';
+
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+    it('should return 4', function() {
+      expect(2+2).to.equal(4)
+    });
+  });
+});
+```
+
+If you place this code into your test.js file you should see that everything works perfectly. Good luck!
+
 ## Useful Websites
 
 * Mocha - https://mochajs.org/
