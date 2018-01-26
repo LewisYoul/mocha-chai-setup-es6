@@ -47,6 +47,7 @@ You will now be able to run `npm test` and your tests will pass. Wizard!
 
 **9 -** As a final step lets write a test that imports chai:
 
+
 ```
 import assert from 'assert';
 import { expect } from 'chai';
